@@ -1,0 +1,57 @@
+body {
+  background: #52B3D9;
+  margin: 0;
+  padding: 0;
+}
+.title{
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+}
+.content {
+  height: 800px;
+  margin: 0 auto;
+}
+.sphere {
+  fill: #52B3D9;
+}
+.land {
+  fill: #6AB086;
+}
+
+.boundary {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  vector-effect: non-scaling-stroke;
+}
+
+circle {
+  opacity: 0.5;
+  fill: #D35400;
+  stroke: #D35400;
+  stroke-width: 0;
+}
+.hovered {
+  stroke: #7E142E;
+  stroke-width: 2px;
+}
+
+.tooltip {
+  position: absolute;
+  display: inline-block;
+  width: auto;
+  padding: 0 10px;
+  opacity: 0;
+  background: #283031;
+  color: #fff;
+  font: 15px sans-serif;
+}
+.tooltip .title {
+  font-weight: bold;
+}
+
+.tooltip div {
+  margin: 10px 0;
+}
